@@ -1,0 +1,134 @@
+@charset 'EUC-JP';
+
+body {background-color: #fff; padding: 0; text-align: center; font-size: 95%; text-align: center;}
+.contents {width: 95%; margin: auto; padding: 0; text-align: left; position: relative; border: 2px solid #6495ed;}
+
+table {width: 100%; margin: 0px; padding: 0px;}
+table td {padding: 0px; border-width: 0px; vertical-align: top;}
+th {background-color: #6495ed; color: #000000; padding : 2px; vertical-align : middle;}
+
+a {color: #000; text-decoration: none; background-color: transparent;}
+a:hover {color: #039; font-weight: bold;}
+th a {color: #000;}
+th a:hover {color: #fff; font-weight: bold;}
+.headerbar a {color: #fff; font-weight: bold;}
+.headerbar a:hover {color: #039; font-weight: bold;}
+.head a {color: #000; font-weight: bold;}
+.head a:hover {color: #fff; font-weight: bold;}
+.foot a {color: #000; font-weight: bold;}
+.foot a:hover {color: #fff; font-weight: bold;}
+address a {color: #fff; font-size: 90%; font-weight: bold;}
+address a:hover {color: #039; font-size: 90%; font-weight: bold;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul {margin: 0; padding: 2px 5px; text-align: left;}
+li {list-style: square inside; color: #000;}
+
+input {color:#000; border:1px solid #6495ed; margin: 1px; padding-top:3px; background-color: #fff;}
+textarea {color:#000; border:1px solid #6495ed; margin: 1px; padding-top:3px; background-color: #fff;}
+
+.item {background-color: #fff; margin: 0; border: 2px solid #6495ed;}
+.itemHead {margin: 0; padding: 5px 10px 2px; font-size: 120%;}
+.itemInfo {text-align: right; padding: 3px 10px 2px; border-top: 2px dotted #6495ed;}
+.itemPoster {}
+.itemPostDate {}
+.itemStats {}
+.itemBody {padding: 2px 15px;}
+.itemText {line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {margin: 0; padding: 2px 10px; line-height: 120%; text-align: right;}
+.itemAdminLink {}
+.itemPermaLink {}
+
+.headerbanner01 {height: 150px; background: #b0c4de url(./image/bg01.gif) no-repeat top left;}
+.headerbanner02 {height: 150px; background: url(./image/bg02.gif) no-repeat top right; text-align: center;}
+.headerlogo {height: 150px; margin-left: 200px; margin-right: 190px;}
+.headerbanner01 img {vertical-align: bottom;}
+
+.headerbar {color: #fff; background-color: #6495ed; margin-bottom: 15px; padding-right: 10px; text-align: right; font-weight: bold;}
+.headerbar input {vertical-align: middle;}
+
+.wrapper {width: 79%; float: left; margin: 0; padding: 0; position: relative;}
+
+.left {width: 25%; float: left; position: relative; margin: 0; padding: 0;}
+.leftcolumn {margin: 0; padding: 15px 0px;}
+.leftcolumn th {background-color: #6495ed; color: #000; vertical-align: middle;}
+.leftcolumn div.blockTitle {height: 40px; background: #fff url(./image/bg_lside01.gif) no-repeat right bottom; margin: 0; padding: 2px 5px; text-align: center; font-size: 120%; font-weight: bold;}
+.leftcolumn div.blockContent {margin: 0; padding: 10px 10px 2px; background-color: #b0c4de; line-height: 120%;}
+.leftcolumn div.blockfoot {height: 25px; background: #fff url(./image/bg_lside02.gif) no-repeat right bottom; margin: 0px 0px 15px; padding: 0;}
+
+.center {width: 74%; margin: 0; padding: 0; float: right; position: relative;}
+.centercolumn {padding: 15px;}
+.centercolumn div.blockTitle img {vertical-align: middle;}
+
+.centerCcolumn {width: 99%;}
+.centerCcolumn div.blockTitle {background-color: #fff;margin: 0; padding: 2px 5px 2px; border-top: 2px solid #6495ed; border-right: 2px solid #6495ed; border-left: 2px solid #6495ed; border-bottom: 2px dotted #6495ed; font-size: 120%; text-align: center;}
+.centerCcolumn div.blockContent {background-color: #fff; margin-bottom: 20px; padding: 10px; border-right: 2px solid #6495ed; border-left: 2px solid #6495ed; border-bottom: 2px solid #6495ed;}
+.centerCcolumn div.blockTitle img {vertical-align: middle;}
+
+.centerLcolumn {width: 48%; float: left; text-align: left;}
+.centerLcolumn div.blockTitle {background-color: #fff;margin: 0; padding: 2px 5px 2px; border-top: 2px solid #6495ed; border-right: 2px solid #6495ed; border-left: 2px solid #6495ed; border-bottom: 2px dotted #6495ed; font-size: 120%; text-align: center;}
+.centerLcolumn div.blockContent {background-color: #fff; margin-bottom: 20px; padding: 10px; border-right: 2px solid #6495ed; border-left: 2px solid #6495ed; border-bottom: 2px solid #6495ed;}
+
+.centerRcolumn {width: 48%; float: right; text-align: left;}
+.centerRcolumn div.blockTitle { background-color: #fff;margin: 0; padding: 2px 5px 2px; border-top: 2px solid #6495ed; border-right: 2px solid #6495ed; border-left: 2px solid #6495ed; border-bottom: 2px dotted #6495ed; font-size: 120%; text-align: center;}
+.centerRcolumn div.blockContent { background-color: #fff; margin-bottom: 20px; padding: 10px; border-right: 2px solid #6495ed; border-left: 2px solid #6495ed; border-bottom: 2px solid #6495ed;}
+
+.content {clear: both; text-align: left;}
+.content div.blockTitle {color: #000; padding: 5px; font-size: 150%; font-weight: bold;}
+
+.right {width: 20%; float: right; position: relative; margin: 0; padding: 0;}
+.rightcolumn {margin: 0; padding: 15px 0px;}
+.rightcolumn th {background-color: #6495ed; color: #000; vertical-align: middle;}
+.rightcolumn div.blockTitle {height: 40px; background: #fff url(./image/bg_rside01.gif) no-repeat left bottom; margin: 0; padding: 2px 5px; text-align: center; font-size: 120%; font-weight: bold;}
+.rightcolumn div.blockContent {margin: 0; padding: 10px 10px 2px; background-color: #b0c4de; line-height: 120%;}
+.rightcolumn div.blockfoot {height: 25px; background: #fff url(./image/bg_rside02.gif) no-repeat left bottom; margin: 0px 0px 15px; padding: 0;}
+
+.clear {clear: both;}
+.footerbar {width: 95%; margin: auto; padding: 0; background-color: #6495ed; border-right: 2px solid #6495ed; border-left: 2px solid #6495ed;}
+.copyright {padding: 5px; text-align:center;}
+
+td#mainmenu a {display: block; font-weight: bold; border-bottom: 1px dotted #6495ed;}
+td#mainmenu a:hover {color: #039;}
+td#mainmenu a.menuTop {border-top: 1px dotted #6495ed;}
+td#mainmenu a.menuMain {}
+td#mainmenu a.menuSub {padding-left: 10px;}
+
+td#usermenu a {display: block; font-weight: bold; border-bottom: 1px dotted #6495ed;}
+td#usermenu a:hover {color: #039;}
+td#usermenu a.menuTop {border-top: 1px dotted #6495ed;}
+td#usermenu a.highlight {background-color: #fff;}
+
+.outer {border: 2px solid #6495ed; background-color: #ffffff;}
+.outer td{padding: 5px;}
+.head {background-color: #6495ed; font-weight: bold;}
+.even {background-color: #b0c4de;}
+.odd {background-color: #fff; border-right: 1px solid #b0c4de; border-bottom: 1px solid #b0c4de;}
+.foot {background-color: #6495ed; font-weight: bold;}
+tr.even td {background-color: #b0c4de;}
+tr.odd td {background-color: #fff;}
+
+div.errorMsg {background-color: #ffffff; text-align: center; border: 1px solid #000; font-weight: bold; padding: 10px;}
+div.confirmMsg {background-color: #ffffff; color: #000000; text-align: center; border: 1px solid #000; font-weight: bold; padding: 10px;}
+div.resultMsg {background-color : #ffffff; color: #000000; text-align: center; borderp: 1px solid #000; font-weight: bold; padding: 10px;}
+
+div.xoopsCode {background: #FFFFFF; border: 1px inset #000; padding: 0px 6px 6px 6px;}
+div.xoopsQuote {background: #FFFFFF; border: 1px inset #000; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {color: #000000; font-weight:bold; border: 1px solid #000; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #000; font-weight:bold;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-weight:bold;}
+.comUserRankImg {border: 0px;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal;}
+.comDateCaption {font-weight: bold; font-style: normal;}
